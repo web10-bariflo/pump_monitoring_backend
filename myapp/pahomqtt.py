@@ -7,7 +7,8 @@ from myapp.models import Quantity
 # MQTT Configuration
 MQTT_BROKER = 'mqttbroker.bc-pl.com'
 MQTT_PORT = 1883  
-MQTT_TOPIC = 'pump/alerts'
+MQTT_TOPIC = '123/pump'
+# MQTT_TOPIC = 'pump/alerts'
 MQTT_USER = 'mqttuser'
 MQTT_PASSWORD = 'Bfl@2025'
 
