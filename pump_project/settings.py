@@ -99,6 +99,18 @@ DATABASES = {
 #     }
 # }
 
+DATABASES = {
+    'default': {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "pumpdb",
+        "USER": "vertoxl",
+        "PASSWORD": "vertoxlabs",
+        "HOST": "192.168.1.140",
+        "PORT": "5432",
+    }
+}
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
